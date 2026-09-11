@@ -12,26 +12,14 @@ Decoding visual information from electrophysiological brain signals is one of th
 ---
 
 ## 📑 Table of Contents
-1. [Project Checklist & Milestones](#-project-checklist--milestones)
-2. [Taxonomy of Modern Visual Decoding](#-taxonomy-of-modern-visual-decoding)
-3. [Master Literature Matrix: EEG Visual Reconstruction (2017–2026)](#-master-literature-matrix-eeg-visual-reconstruction-20172026)
-4. [Comparative Benchmark: fMRI Visual Reconstruction](#-comparative-benchmark-fmri-visual-reconstruction)
-5. [In-Depth Paper Reviews](#-in-depth-paper-reviews)
-6. [Datasets & The "Block-Design Leakage" Crisis](#-datasets--the-block-design-leakage-crisis)
-7. [Standardized Benchmarking & Evaluation Metrics](#-standardized-benchmarking--evaluation-metrics)
-8. [Open Source Codebases & Checkpoints](#-open-source-codebases--checkpoints)
-9. [Future Horizons (2025–2026+)](#-future-horizons-20252026)
-
----
-
-## 📌 Project Checklist & Milestones
-
-- [x] **Read & Analyze [GWIT: Guess What I Think (arXiv:2410.02780)](https://arxiv.org/abs/2410.02780)**: Completed. Full architectural review documented in [papers/GWIT_ICASSP2025.md](papers/GWIT_ICASSP2025.md).
-- [x] **Official GWIT Code Availability**: The official PyTorch implementation by Luigi Sigillo has been released on GitHub: [LuigiSigillo/GWIT](https://github.com/LuigiSigillo/GWIT).
-- [x] **Dataset Acquisition**: Complete preprocessed EEGCVPR40 dataset is hosted on Hugging Face: [luigi-s/EEG_Image_CVPR_ALL_subj](https://huggingface.co/datasets/luigi-s/EEG_Image_CVPR_ALL_subj).
-- [x] **Author Collaboration**: Lead researchers Luigi Sigillo (`luigi.sigillo@uniroma1.it`) and Eleonora Lopez (`eleonora.lopez@uniroma1.it`) at Sapienza University of Rome.
-- [x] **Modernize Benchmark Coverage (2024–2026)**: Added ATM (NeurIPS 2024), ViEEG (ICML 2024), BrainVis (ICASSP 2025), BReAD (SIGIR 2025), and Saliency-Guided Diffusion (2025).
-- [x] **Address Methodological Vulnerabilities**: Synthesized the EEGCVPR40 block-design leakage findings and established THINGS-EEG as the primary standard in [datasets/Block_Design_Controversy.md](datasets/Block_Design_Controversy.md).
+1. [Taxonomy of Modern Visual Decoding](#-taxonomy-of-modern-visual-decoding)
+2. [Master Literature Matrix: EEG Visual Reconstruction (2017–2026)](#-master-literature-matrix-eeg-visual-reconstruction-20172026)
+3. [Comparative Benchmark: fMRI Visual Reconstruction](#-comparative-benchmark-fmri-visual-reconstruction)
+4. [In-Depth Paper Reviews](#-in-depth-paper-reviews)
+5. [Datasets & The "Block-Design Leakage" Crisis](#-datasets--the-block-design-leakage-crisis)
+6. [Standardized Benchmarking & Evaluation Metrics](#-standardized-benchmarking--evaluation-metrics)
+7. [Open Source Codebases & Checkpoints](#-open-source-codebases--checkpoints)
+8. [Future Horizons (2025–2026+)](#-future-horizons-20252026)
 
 ---
 
