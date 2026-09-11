@@ -1,3 +1,9 @@
+# DreamDiffusion: Generating Images from Brain EEG Signals
+
+> [!NOTE]
+> **Name Clarification**: This document analyzes **DreamDiffusion** (Bai et al., Tencent ARC Lab & Tsinghua University, 2023) for EEG-to-image reconstruction, which builds on principles from MinD-Vis. (It is distinct from Google's text-to-3D *DreamFusion*).
+> An expanded and fully updated analysis is available at [papers/DreamDiffusion.md](papers/DreamDiffusion.md).
+
 ![image](https://github.com/user-attachments/assets/831e6f53-ac12-4a81-8a58-3f55d2200fee)
 
 - **Masked signal pre-training**: Utilizes masked signal modeling to train a robust EEG encoder.

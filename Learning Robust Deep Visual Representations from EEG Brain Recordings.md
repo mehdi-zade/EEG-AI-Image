@@ -1,4 +1,9 @@
-https://github.com/prajwalsingh/EEGStyleGAN-ADA
+# Learning Robust Deep Visual Representations from EEG Brain Recordings
+
+> [!TIP]
+> A structured summary and comparison of this paper is also indexed at [papers/EEGStyleGAN_ADA.md](papers/EEGStyleGAN_ADA.md).
+
+Original Code: https://github.com/prajwalsingh/EEGStyleGAN-ADA
 
 ### Summary
 proposes a two-stage method for learning robust deep visual representations from EEG brain recordings. The first stage involves obtaining EEG-derived features, and the second stage uses these features for image generation and classification. The authors claim that their method is generalizable across three different datasets and achieves state-of-the-art performance in image synthesis from EEG signals.
